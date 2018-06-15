@@ -16,16 +16,16 @@ $(document).ready(function() {
 	    question: "A male blanket octopus is ______ a female pillow octopus.",
 	    choices: ["always lighter than", "always heavier than", "the same weight as", "sometimes heavier than"],
 			correctAnswer: "always lighter than",
-			answerExp: "A female pillow octopus is 40,000 times heavier than a male pillow octopus!",
+			answerExp: "A female blanket octopus is 40,000 times heavier than a male blanket octopus!",
 	    image: "<img src='assets/images/blanket.gif' class='centerimage'>"
 	  }, 
 	  {
-	    question: "How do blanket octopuses mate?",
+	    question: "How do octopuses mate?",
 	    choices: ["The male octopus has sperm in his arm.", "The male octopus has sperm in his head.", "they mate with typical sex organs", "they reproduce asexually"],
 			correctAnswer: "The male octopus has sperm in his arm.",
 			answerExp: "The male octopus has sperm in one of his arms, which he actually tears off and gives to a female octopus. Talk about a romantic gift!",
 	    image: "<img src='assets/images/love.gif' class='centerimage'>"
-		}, /*
+		}, 
 	  {
 	    question: "What does an octopus feel like?",
 	    choices: ["like a snake", "like sandpaper", "like the inside of your cheek", "like a slimey noodle"],
@@ -151,9 +151,7 @@ $(document).ready(function() {
 			correctAnswer: "a few years",
 			answerExp: "Octopuses generally have a very short lifespans, about three to five years.",
 	    image: "<img src='assets/images/dead.gif' class='centerimage'>"
-	  },
-	  */
-	  ];
+	  }];
 	  
 
 	// create question contents according to question count
