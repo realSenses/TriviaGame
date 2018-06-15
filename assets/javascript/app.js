@@ -13,7 +13,7 @@ $(document).ready(function() {
     // question & answer array
     var questions = [
       {
-	    question: "A male blanket octopus is ______ a female pillow octopus.",
+	    question: "A male blanket octopus is ______ a female blanket octopus.",
 	    choices: ["always lighter than", "always heavier than", "the same weight as", "sometimes heavier than"],
 			correctAnswer: "always lighter than",
 			answerExp: "A female blanket octopus is 40,000 times heavier than a male blanket octopus!",
@@ -226,17 +226,18 @@ $(document).ready(function() {
 	function resultsScreen() {
 		if (correctGuesses === questions.length) {
 			var endMessage = "You have proven yourself worthy. Are you perhaps a marine biologist?" +
-			"<img src='assets/images/winning.gif' class='centerimage'>"
+			"<img src='assets/images/winning.gif' class='centerimage'>";
 			var bottomText = "#octopusLife";
 
 		}
 		else if (correctGuesses > incorrectGuesses) {
-			var endMessage = "Not bad! But surely you can do better. Right?";
+			var endMessage = "Not bad! But surely you can do better. Right?" +
+			"<img src='assets/images/dobetter.gif' class='centerimage'>";
 			var bottomText = "What's kraken bro?";
 		}
 		else {
-			var endMessage = "What happened? Are you ok?";
-			"<img src='assets/images/taunt.gif' class='centerimage'>"
+			var endMessage = "What happened? Are you ok?" +
+			"<img src='assets/images/taunt.gif' class='centerimage'>";
 			var bottomText = "DONT TAUNT THE OCTOPUS";
 		}
 		$("#gameScreen").html("<p>" + endMessage + "</p>" + "<p>You got <strong>" + 
