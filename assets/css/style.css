@@ -1,0 +1,69 @@
+body { 
+	background: url(../images/underwater.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Raleway', sans-serif;
+}
+
+html {
+	cursor: crosshair;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Teko', sans-serif;
+	color: white;
+	padding: 25px;
+}
+
+.answer,
+#timer {
+	font-weight: 900;
+}
+
+#start {
+	color: white;
+	font-family: 'Teko', sans-serif;
+}
+
+.choices {
+	text-align: center;
+	border: groove 2px rgb(212, 212, 212);
+	border-radius: 5%;
+	margin: 0 35%;
+	font-size: 20px;
+}
+
+.choices:hover {
+	background-color: #000147;
+	color: rgb(230, 230, 230);
+}
+
+.centerimage {
+
+	display: block;
+	margin: auto;
+	width:300px;
+	height:auto;
+	padding-top: 5px;
+}
+
+#gameScreen {
+	background: #373B44;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #4286f4, #373B44); 
+	background: linear-gradient(to right, #4286f4, #373B44);
+	-webkit-box-shadow: 7px 5px 47px 0px #0E32E8;
+	-moz-box-shadow: 7px 5px 47px 0px #0E32E8;
+	box-shadow: 7px 5px 47px 0px #0E32E8;
+	font-size:18px;
+	color:white;
+}
+
+.shadow {
+	-webkit-box-shadow: -7px 6px 5px -1px #0A229E;
+	-moz-box-shadow: -7px 6px 5px -1px #0A229E;
+	box-shadow: -7px 6px 5px -1px #0A229E;
+}
