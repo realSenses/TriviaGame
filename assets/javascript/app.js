@@ -183,7 +183,7 @@ $(document).ready(function() {
 			 answerExp + 
 			 "</span>" +
 			questions[questionCounter].image);
-		setTimeout(nextQuestion, 5000);
+		setTimeout(nextQuestion, 6000);
 		questionCounter++;
 	}
 
@@ -200,7 +200,7 @@ $(document).ready(function() {
 			answerExp + 
 			"</span>" +
 			questions[questionCounter].image);
-		setTimeout(nextQuestion, 5000);
+		setTimeout(nextQuestion, 6000);
 		questionCounter++;
 	}
 
@@ -217,7 +217,7 @@ $(document).ready(function() {
 				 answerExp + 
 				 "</span>" +
 				questions[questionCounter].image);
-			setTimeout(nextQuestion, 5000);
+			setTimeout(nextQuestion, 6000);
 			questionCounter++;
 		}
 	}
